@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Rojo: Serve",
+      "type": "process",
+      "command": "rojo",
+      "args": ["serve", "default.project.json"],
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Rojo: Build place file",
+      "type": "process",
+      "command": "rojo",
+      "args": ["build", "default.project.json", "-o", "StealForPC.rbxlx"],
+      "problemMatcher": []
+    }
+  ]
+}
+

@@ -1,0 +1,12 @@
+/build/
+/out/
+/Packages/
+/StealForPC.rbxlx
+/StealForPC.rbxl
+*.rbxl.lock
+*.rbxlx.lock
+*.log
+.DS_Store
+Thumbs.db
+.vscode/*.log
+
